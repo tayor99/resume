@@ -1,0 +1,124 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  padding: 25px 0;
+  background-color: #ff4c68;
+}
+header .logo-name {
+  font-size: 33px;
+  font-weight: 700;
+  color: #fff;
+}
+
+header .logo-links {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+header .logo-links:hover {
+  font-size: 1.1rem;
+  transition: 0.3s ease-in-out;
+}
+
+/* HOME */
+
+header .display-img img {
+  width: 400px;
+  height: 400px;
+}
+
+header .side-text {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 800;
+
+  text-align: center;
+  margin-top: 20%;
+
+  /* position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 10px; */
+}
+header .side-text a {
+  padding: 7px 32px;
+  text-transform: uppercase;
+}
+
+/* about */
+
+#about {
+  padding: 65px 0px;
+  text-align: center;
+}
+
+#about h1 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+/* SKILLS */
+
+#skill {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 65px 0;
+}
+#skill h1 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+#skill .skill-image {
+  /* background-color: #fff; */
+  width: 25 0px;
+  height: 250px;
+  margin-bottom: 1.5rem;
+  /* border-radius: %; */
+}
+#skill .checked {
+  color: #ffff00;
+}
+
+#skill .rating {
+  font-size: 25px;
+}
+
+/* footer */
+
+#contact {
+  text-align: center;
+  background-color: #fff;
+  padding: 7% 0;
+  font-family: "montserrat";
+}
+
+#contact .footer-icons {
+  font-size: 2rem;
+  padding: 3% 0;
+  color: #8f8f8f;
+}
+
+#contact a {
+  color: #000;
+}
+
+#contact a:hover {
+  color: #c0c0c0;
+  transition: 0.3s ease-in-out;
+}
+
+#contact .footer-icons i {
+  margin: 20px 10px;
+}
